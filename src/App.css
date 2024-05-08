@@ -1,6 +1,17 @@
-.App {
-  text-align: center;
+:root {
+  --warna-putih: #ffffff;
+  --warna-navbar: #165668;
+  --warna-nabarr: #457886;
+  --warna-opac: #4578865f;
+  --judul: 500%;
+  --biasa: 190%;
+  --biasa-banget: 120%
 }
+
+
+/* .App {
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -13,7 +24,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,8 +32,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color: white; 
+} */
 
 .App-link {
   color: #61dafb;
@@ -32,7 +43,143 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  background-color: var(--warna-navbar);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button-radius {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 90px;
+  border-color: var(--warna-putih);
+  color: var(--warna-putih);
+}
+
+.button-telusuri {
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  border-color: var(--warna-putih);
+  color: var(--warna-putih);
+}
+
+.text-navbar {
+  color: var(--warna-putih);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* section */
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bekgron-gambar {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bekgron-gambar-fixed {
+  background-attachment: fixed;
+}
+
+/* gambar */
+.nada {
+  rotate: 14.92°;
+  transform: translateX(3rem) !important;
+  width: 35rem;
+}
+
+.ratakiri {
+  text-align: start;
+  /* transform: translateX(5rem) !important; */
+}
+
+.tittle-judul {
+  font-size: var(--judul);
+  color: var(--warna-putih);
+}
+
+.tittle-biasa {
+  font-size: var(--biasa);
+  color: var(--warna-putih);
+}
+
+.space {
+  line-height: 50%;
+}
+
+.card {
+  max-width: 1000px;
+  border-color: var(--warna-opac);
+  border-width: 1px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.manmusic-gambar {
+  width: 60rem;
+}
+
+.indent {
+  text-indent: 5%;
+}
+
+.tittle-card {
+  font-size: var(--biasa);
+}
+
+.tittle-cardbiasa {
+  font-size: var(--biasa-banget);
+}
+
+#alatmusik {
+  margin-top: 4rem;
+}
+
+.animasitangan-gambar {
+  width: 17rem;
+}
+
+#animasitangan {
+  margin-top: 2rem;
+}
+
+.font-putih {
+  color: var(--warna-putih);
+}
+
+#project {
+  background-color: var(--warna-navbar)
+}
+
+#footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  background-color: var(--warna-nabarr)
+}
+
+.gambar-kecil {
+  width: 4rem;
+}
+
+.gambar-kecilinfinit {
+  width: 8rem;
+}
+
+.ratatengah {
+  text-align: center;
 }
