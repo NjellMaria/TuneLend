@@ -1,0 +1,129 @@
+:root {
+    --warna-putih: #ffffff;
+    --warna-navbar: #165668;
+    --warna-nabarr: #457886;
+    --warna-opac: #4578865f;
+    --judul: 500%;
+    --biasa: 190%;
+    --biasa-banget: 120%
+}
+
+/* Navbar */
+.nav {
+    background-color: var(--warna-navbar);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-profile {
+    padding: .25rem;
+    background-color: var(--warna-putih);
+    border: 1px solid var(--warna-nabarr);
+    border-radius: 50rem;
+    max-width: 2.5rem;
+    height: auto;
+}
+
+.button-radius {
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 90px;
+    border-color: var(--warna-putih);
+    color: var(--warna-putih);
+}
+
+.button-telusuri {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border-color: var(--warna-putih);
+    color: var(--warna-putih);
+}
+
+.text-navbar {
+    color: var(--warna-putih);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Section */
+
+.padding-card {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.padding-ccard {
+    margin-right: 2rem;
+}
+
+.align-items-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bekgron-gambar {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bekgron-gambar-fixed {
+    background-attachment: fixed;
+}
+
+.ratatengah {
+    text-align: center;
+    /* transform: translateX(5rem) !important; */
+}
+
+.ratakiri {
+    text-align: start;
+    /* transform: translateX(5rem) !important; */
+}
+
+.tittle-judul {
+    font-size: var(--judul);
+    color: var(--warna-putih);
+}
+
+.tittle-biasa {
+    font-size: var(--biasa);
+    color: var(--warna-putih);
+}
+
+.space {
+    line-height: 50%;
+}
+
+.card {
+    max-width: 1000px;
+    border-color: var(--warna-opac);
+    border-width: 1px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logobiru-gambar {
+    width: 11rem;
+}
+
+.card-tentang {
+    width: 25rem;
+    height: 22rem;
+    border-color: var(--warna-opac);
+    border-width: 1px;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.card-img {
+    width: 10rem;
+}
+
+.linkedin {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

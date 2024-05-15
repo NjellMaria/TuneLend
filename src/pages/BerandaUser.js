@@ -3,10 +3,10 @@ import nada from '../Nada.png';
 import manmusic from '../manmusic.png';
 import animasitangan from '../Animasitangan.png';
 import kampusmerdeka from '../kampusmerdeka.png';
+import avatar from './avatar.png';
 import infinit from '../Infinit.png';
-import '../App.css';
-import { BerandaUser } from './BerandaUser';
-export const Beranda = () => {
+import './BerandaUser.css';
+export const BerandaUser = () => {
     return (
         // Navbar
         <div className="App">
@@ -28,7 +28,13 @@ export const Beranda = () => {
                                     <a class="nav-link text-navbar" href="#">Pertanyaan Umum</a>
                                 </li>
                                 <li class="nav-item">
-                                    <button onClick="location.href='#'" class="btn btn-outline-success me-2 button-radius" type="button">Masuk</button>
+                                    <a class="nav-link text-navbar" href="#">Penyewa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-navbar" href="#">Pemilik</a>
+                                </li>
+                                <li class="nav-item">
+                                    <img src={avatar} class="img-profile" alt="..." />
                                 </li>
                             </ul>
                         </div>
@@ -39,7 +45,7 @@ export const Beranda = () => {
                 {/* Section */}
                 <section class="align-items-center bekgron-gambar bekgron-gambar-fixed" id="project">
                     <div class="ratakiri">
-                        <b class="tittle-judul">TuneLend</b>
+                        <p class="tittle-judul">Selamat Datang!</p>
                         <p class="tittle-biasa space">sewa dan sewakan alat musik dengan mudah</p>
                         <br /> <a href="#" class="btn btn-outline-success me-2 button-telusuri">Mulai Telusuri</a>
                     </div>
